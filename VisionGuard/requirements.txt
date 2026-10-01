@@ -1,0 +1,2 @@
+# Convenience entry point: installs the backend dependencies.
+-r backend/requirements.txt

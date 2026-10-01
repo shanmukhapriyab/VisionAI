@@ -1,0 +1,8 @@
+# VisionGuard backend dependencies
+fastapi>=0.110,<1.0
+uvicorn>=0.27,<1.0
+pydantic>=2.5,<3.0
+numpy>=1.24
+opencv-python>=4.8
+# YOLO (installs PyTorch; the Windows wheel from PyPI is CPU-capable, no GPU required)
+ultralytics>=8.3,<9.0

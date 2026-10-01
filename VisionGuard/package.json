@@ -1,0 +1,13 @@
+{
+  "name": "visionguard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Experimental real-time hazard detection prototype with spoken alerts. Convenience scripts; the web app lives in ./frontend and the API in ./backend.",
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:frontend": "npm --prefix frontend run test",
+    "test:backend": "python -m pytest backend -q"
+  }
+}
